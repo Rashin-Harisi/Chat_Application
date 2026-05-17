@@ -1,8 +1,8 @@
 const data = [
     {
         id: 1,
-        image: "../../public/john.svg",
-        name: "John Doe",
+        image: "/john.svg",
+        name: "",
         username: "J0hn_90",
         messages: [
             {
@@ -17,7 +17,7 @@ const data = [
     },
     {
         id: 2,
-        image: "../../public/carol.svg",
+        image: "/carol.svg",
         name: "Carol Smith",
         username: "C@r0L",
         messages: [
@@ -33,7 +33,7 @@ const data = [
     },
     {
         id: 3,
-        image: "../../public/alice.svg",
+        image: "/carol.svg",
         name: "Alice Johnson",
         username: "Alice_J",
         messages: [
@@ -49,7 +49,7 @@ const data = [
     },
     {
         id: 4,
-        image: "../../public/bob.svg",
+        image: "/john.svg",
         name: "Bob Brown",
         username: "Bobby_B",
         messages: [
@@ -65,7 +65,7 @@ const data = [
     },
     {
         id: 5,
-        image: "../../public/emma.svg",
+        image: "/carol.svg",
         name: "Emma Wilson",
         username: "Emma_W",
         messages: [
@@ -81,7 +81,7 @@ const data = [
     },
     {
         id: 6,
-        image: "../../public/mike.svg",
+        image: "/john.svg",
         name: "Mike Davis",
         username: "MikeD",
         messages: [
@@ -94,6 +94,70 @@ const data = [
             }
         ],
         last_seen_date: "yesterday 20:00",
+    },
+    {
+        id: 7,
+        image: "/carol.svg",
+        name: "Sarah Lee",
+        username: "Sarah_L",
+        messages: [
+            {
+                id: 72,
+                date: "04.03.26",
+                time: "11:30",
+                content: "Can you send me the files?",
+                seen: true,
+            }
+        ],
+        last_seen_date: "today 11:45",
+    },
+    {
+        id: 8,
+        image: "/john.svg",
+        name: "David Clark",
+        username: "Dave_C",
+        messages: [
+            {
+                id: 82,
+                date: "03.03.26",
+                time: "18:00",
+                content: "Meeting postponed to tomorrow.",
+                seen: false,
+            }
+        ],
+        last_seen_date: "yesterday 19:00",
+    },
+    {
+        id: 9,
+        image: "/carol.svg",
+        name: "",
+        username: "Nina_A",
+        messages: [
+            {
+                id: 92,
+                date: "02.03.26",
+                time: "15:00",
+                content: "Looking forward to our call.",
+                seen: true,
+            }
+        ],
+        last_seen_date: "today 14:00",
+    },
+    {
+        id: 10,
+        image: "/john.svg",
+        name: "Oliver Green",
+        username: "Oli_G",
+        messages: [
+            {
+                id: 102,
+                date: "01.03.26",
+                time: "10:00",
+                content: "Please review the document.",
+                seen: false,
+            }
+        ],
+        last_seen_date: "yesterday 10:30",
     },
 ];
 
